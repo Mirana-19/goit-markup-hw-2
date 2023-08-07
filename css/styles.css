@@ -30,7 +30,7 @@ body {
 }
 
 .link {
-  color: currentColor;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -102,12 +102,12 @@ body {
 }
 
 .nav-list-item:hover,
-.nav-list-item:focus {
+.nav-list-item:focus-within {
   color: var(--pressed-state-color);
 }
 
 .contacts-list-item:hover,
-.contacts-list-item:focus {
+.contacts-list-item:focus-within {
   color: var(--pressed-state-color);
 }
 
@@ -140,6 +140,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   color: var(--white-color);
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
