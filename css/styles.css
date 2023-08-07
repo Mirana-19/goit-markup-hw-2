@@ -122,6 +122,12 @@ body {
   text-transform: capitalize;
 }
 
+/* Services Section */
+
+.services-title {
+  text-transform: capitalize;
+}
+
 /* -------------Studio Landing Page--------------- */
 
 /* Hero Section */
@@ -156,8 +162,7 @@ body {
 
 /* -------------Portfolio Landing Page--------------- */
 
-.filter-btn {
-  font-weight: 500;
+.btn.filter-btn {
   background-color: var(--accent-color);
   color: var(--primary-brand-color);
 }
