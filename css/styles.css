@@ -46,6 +46,11 @@ body {
   text-transform: uppercase;
 }
 
+.logo:hover,
+.logo:focus {
+  color: var(--pressed-state-color);
+}
+
 .logo-header {
   color: var(--dark-color);
 }
@@ -75,8 +80,14 @@ body {
 /* Buttons */
 
 .btn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--primary-brand-color);
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -91,14 +102,24 @@ body {
   font-weight: 500;
 }
 
-.nav-list:hover,
-.nav-list:focus {
+.nav-list-item:hover,
+.nav-list-item:focus {
   color: var(--pressed-state-color);
 }
 
 .contacts-list-item:hover,
 .contacts-list-item:focus {
   color: var(--pressed-state-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+/* Team Section */
+
+.team-section-title {
+  text-transform: capitalize;
 }
 
 /* -------------Studio Landing Page--------------- */
