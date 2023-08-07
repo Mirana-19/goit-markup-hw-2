@@ -122,6 +122,10 @@ body {
   text-transform: capitalize;
 }
 
+.team-list-item {
+  background-color: var(--white-color);
+}
+
 /* Services Section */
 
 .services-title {
