@@ -10,19 +10,20 @@
   --modal-overlay-color: #2e2f42;
   --hero-bg-color: #2e2f42;
   --white-color: #ffffff;
-  --modalbg-color: #fcfcfc;
+  --modal-bg-color: #fcfcfc;
 }
 
-/* Common text styles */
+/**
+  |============================
+  | Common styles
+  |============================
+*/
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  background-color: var(--white-color);
 }
 
 .list {
@@ -33,8 +34,6 @@ body {
   color: inherit;
   text-decoration: none;
 }
-
-/* Logo */
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -51,15 +50,9 @@ body {
   color: var(--pressed-state-color);
 }
 
-.logo-header {
-  color: var(--dark-color);
-}
-
 .logo-footer {
   color: var(--light-color);
 }
-
-/* Titles */
 
 .list-title {
   font-size: 20px;
@@ -71,17 +64,14 @@ body {
 
 .section-title {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   text-align: center;
   color: var(--dark-color);
   letter-spacing: 0.02em;
 }
 
-/* Buttons */
-
 .btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -96,11 +86,33 @@ body {
   background-color: var(--pressed-state-color);
 }
 
-/* Header */
+/* --------------- Studio Landing Page --------------- */
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+
+.header {
+}
+
+.header-nav {
+}
+
+.logo-header {
+  color: var(--dark-color);
+}
 
 .nav-list {
   color: var(--dark-color);
   font-weight: 500;
+}
+
+.nav-list-item {
+}
+
+.nav-list-link {
 }
 
 .nav-list-item:hover,
@@ -108,34 +120,28 @@ body {
   color: var(--pressed-state-color);
 }
 
-.contacts-list-item:hover,
-.contacts-list-item:focus-within {
+.header-address {
+}
+
+.address-list {
+}
+
+.address-list-item {
+}
+
+.address-list-link {
+}
+
+.address-list-link:hover,
+.address-list-link:focus {
   color: var(--pressed-state-color);
 }
 
-.address {
-  font-style: normal;
-}
-
-/* Team Section */
-
-.team-section-title {
-  text-transform: capitalize;
-}
-
-.team-list-item {
-  background-color: var(--white-color);
-}
-
-/* Services Section */
-
-.services-title {
-  text-transform: capitalize;
-}
-
-/* -------------Studio Landing Page--------------- */
-
-/* Hero Section */
+/**
+  |============================
+  | Hero Section
+  |============================
+*/
 
 .hero {
   background-color: var(--hero-bg-color);
@@ -150,13 +156,92 @@ body {
   text-align: center;
 }
 
-/* Team Section */
+.hero-btn {
+}
+
+/**
+  |============================
+  | Features Section
+  |============================
+*/
+
+.features {
+}
+
+.features-title {
+}
+
+.features-list {
+}
+
+.features-list-item {
+}
+
+.features-list-title {
+}
+
+.features-list-text {
+}
+
+/**
+  |============================
+  | Services Section
+  |============================
+*/
+
+.services {
+}
+
+.services-title {
+  text-transform: capitalize;
+}
+
+.services-list {
+}
+
+.services-list-item {
+}
+
+.services-list-img {
+}
+
+/**
+
+/**
+  |============================
+  | Team Section
+  |============================
+*/
 
 .team {
   background-color: var(--light-color);
 }
 
-/* Footer */
+.team-section-title {
+  text-transform: capitalize;
+}
+
+.team-list {
+}
+
+.team-list-item {
+  background-color: var(--white-color);
+}
+
+.team-list-img {
+}
+
+.team-list-title {
+}
+
+.team-list-text {
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
 
 .footer {
   background-color: var(--hero-bg-color);
@@ -166,15 +251,39 @@ body {
   color: var(--light-color);
 }
 
-/* -------------Portfolio Landing Page--------------- */
+/* --------------- Portfolio Landing Page --------------- */
 
-.btn.filter-btn {
+.portfolio {
+}
+
+.btn-list {
+}
+
+.btn-list-item {
+}
+
+.btn.btn-list-button {
   background-color: var(--light-color);
   color: var(--primary-brand-color);
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.btn-list-button:hover,
+.btn-list-button:focus {
   color: var(--white-color);
   background-color: var(--pressed-state-color);
+}
+
+.portfolio-list {
+}
+
+.portfolio-list-item {
+}
+
+.portfolio-list-img {
+}
+
+.portfolio-list-title {
+}
+
+.portfolio-list-text {
 }
